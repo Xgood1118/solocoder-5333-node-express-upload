@@ -5,7 +5,7 @@ const config = require('./config');
 const storage = require('./storage');
 const { dataStore, UPLOAD_STATUS } = require('./utils/store');
 const { computeHashFromFile, computeHashFromBuffer } = require('./utils/hash');
-const { detectMimeFromBuffer, validateMimeType, getExtensionFromMime } = require('./utils/mime');
+const { isSafeFile, getExtensionFromMime, hasDangerousExtension } = require('./utils/mime');
 const sseManager = require('./utils/sse');
 
 function getClientIp(req) {
@@ -32,6 +32,22 @@ async function initUpload(req, res) {
 
   if (!fileName || fileSize == null) {
     return res.status(400).json({ error: 'Missing required fields: fileName, fileSize' });
+  }
+
+  if (hasDangerousExtension(fileName)) {
+    dataStore.addAuditLog({
+      type: 'blocked_upload',
+      userId: user.userId,
+      fileName,
+      fileSize,
+      reason: 'dangerous_extension',
+      ip: getClientIp(req)
+    });
+    return res.status(403).json({
+      error: 'File type not allowed',
+      reason: 'dangerous_extension',
+      details: 'Dangerous file extension is not allowed'
+    });
   }
 
   if (fileSize > roleConfig.maxFileSize) {
@@ -188,17 +204,24 @@ function _handleChunkUpload(req, res, session, index, roleConfig) {
         return;
       }
 
-      if (roleConfig.strictMimeCheck && index === 0) {
+      if (index === 0) {
         fileStream.once('data', (chunk) => {
           firstChunk = chunk;
-          const detectedMime = detectMimeFromBuffer(chunk);
-          if (detectedMime && !validateMimeType(detectedMime)) {
-            fileStream.destroy(new Error('Invalid file type (MIME check failed'));
+
+          const extDangerous = hasDangerousExtension(session.fileName);
+          if (extDangerous) {
+            fileStream.destroy(new Error('File type not allowed (dangerous extension)'));
             return;
           }
-          if (detectedMime) {
-            session.mimeType = detectedMime;
+
+          const safetyCheck = isSafeFile(chunk, session.fileName, roleConfig.strictMimeCheck);
+          if (!safetyCheck.safe) {
+            var errMsg = 'File type not allowed: ' + (safetyCheck.details || safetyCheck.reason);
+            fileStream.destroy(new Error(errMsg));
+            return;
           }
+
+          session.mimeType = safetyCheck.mimeType || null;
         });
       }
 
@@ -629,12 +652,29 @@ async function simpleUpload(req, res) {
   busboy.on('file', (fieldname, fileStream, info) => {
     totalFiles++;
     const fileName = info.filename || 'unnamed';
+
+    const extDangerous = hasDangerousExtension(fileName);
+    if (extDangerous) {
+      fileStream.resume();
+      hasError = true;
+      if (!responseSent) {
+        responseSent = true;
+        res.status(403).json({
+          error: 'File type not allowed',
+          reason: 'dangerous_extension',
+          details: 'Dangerous file extension is not allowed'
+        });
+      }
+      finishedFiles++;
+      return;
+    }
+
     const fileId = uuidv4();
     const ext = path.extname(fileName) || '';
     const finalPath = storage.getUploadPath(fileId + ext);
 
     let fileSize = 0;
-    let detectedMime = null;
+    let safetyCheckResult = null;
     let firstChunk = true;
 
     const writeStream = storage.createWriteStream(finalPath);
@@ -642,11 +682,12 @@ async function simpleUpload(req, res) {
     fileStream.on('data', (chunk) => {
       fileSize += chunk.length;
 
-      if (firstChunk && roleConfig.strictMimeCheck) {
+      if (firstChunk) {
         firstChunk = false;
-        detectedMime = detectMimeFromBuffer(chunk);
-        if (detectedMime && !validateMimeType(detectedMime)) {
-          fileStream.destroy(new Error('Invalid file type (MIME check failed)'));
+        safetyCheckResult = isSafeFile(chunk, fileName, roleConfig.strictMimeCheck);
+        if (!safetyCheckResult.safe) {
+          var errMsg2 = 'File type not allowed: ' + (safetyCheckResult.details || safetyCheckResult.reason);
+          fileStream.destroy(new Error(errMsg2));
         }
       }
     });
@@ -703,7 +744,7 @@ async function simpleUpload(req, res) {
             filePath: finalPath,
             size: fileSize,
             hash: fileHash,
-            mimeType: detectedMime,
+            mimeType: safetyCheckResult?.mimeType || null,
             owner: user.userId
           });
 
@@ -714,7 +755,7 @@ async function simpleUpload(req, res) {
             name: fileName,
             size: fileSize,
             hash: fileHash,
-            mimeType: detectedMime
+            mimeType: safetyCheckResult?.mimeType || null
           });
         }
 

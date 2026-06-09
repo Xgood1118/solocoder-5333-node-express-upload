@@ -1184,5 +1184,81 @@
     "fileSize": 100,
     "ip": "::ffff:127.0.0.1",
     "timestamp": 1780969830276
+  },
+  {
+    "type": "blocked_upload",
+    "userId": "user_normal",
+    "fileName": "backdoor.exe",
+    "fileSize": 1000000,
+    "reason": "dangerous_extension",
+    "ip": "::1",
+    "timestamp": 1780975933373
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::1",
+    "timestamp": 1780976172374
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::1",
+    "timestamp": 1780976172413
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::1",
+    "timestamp": 1780976172437
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::1",
+    "timestamp": 1780976172474
+  },
+  {
+    "type": "blocked_upload",
+    "userId": "user_normal",
+    "fileName": "badfile.exe",
+    "fileSize": 10000000,
+    "reason": "dangerous_extension",
+    "ip": "::1",
+    "timestamp": 1780976254486
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_vip",
+    "fileCount": 1,
+    "ip": "::1",
+    "timestamp": 1780976254554
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780982459689
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780982523971
+  },
+  {
+    "type": "blocked_upload",
+    "userId": "user_normal",
+    "fileName": "malware.exe",
+    "fileSize": 1024,
+    "reason": "dangerous_extension",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780982553224
   }
 ]

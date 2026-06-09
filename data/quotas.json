@@ -2,15 +2,15 @@
   "user_normal": {
     "userId": "user_normal",
     "month": "2026-06",
-    "bytesUsed": 24093061,
-    "lastUpdated": 1780969072540,
+    "bytesUsed": 24093202,
+    "lastUpdated": 1780982523971,
     "warningSent": false
   },
   "user_vip": {
     "userId": "user_vip",
     "month": "2026-06",
-    "bytesUsed": 0,
-    "lastUpdated": 1780968989852,
+    "bytesUsed": 11,
+    "lastUpdated": 1780976254554,
     "warningSent": false
   }
 }

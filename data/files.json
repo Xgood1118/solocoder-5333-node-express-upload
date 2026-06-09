@@ -128,5 +128,89 @@
     "owners": [
       "user_normal"
     ]
+  },
+  "3e387e2a-5537-46ed-8542-ef120b27ea21": {
+    "fileId": "3e387e2a-5537-46ed-8542-ef120b27ea21",
+    "originalName": "safe-file.txt",
+    "fileName": "3e387e2a-5537-46ed-8542-ef120b27ea21.txt",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\3e387e2a-5537-46ed-8542-ef120b27ea21.txt",
+    "size": 37,
+    "hash": "44ab2a2ba63af33ae6ea37c6d3a50d4e1f4f84305b6b420f953c70acd6db1b83",
+    "mimeType": "text/plain",
+    "owner": "user_normal",
+    "createdAt": 1780976172374,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "f72dac6e-07f1-40dc-b49c-5a695b8a73da": {
+    "fileId": "f72dac6e-07f1-40dc-b49c-5a695b8a73da",
+    "originalName": "readme.md",
+    "fileName": "f72dac6e-07f1-40dc-b49c-5a695b8a73da.md",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\f72dac6e-07f1-40dc-b49c-5a695b8a73da.md",
+    "size": 29,
+    "hash": "c2e6f73ead3d7f4d7ce0ace6ad9842d4a7931ac01a614c2c4901f7fd70251376",
+    "mimeType": "text/plain",
+    "owner": "user_normal",
+    "createdAt": 1780976172413,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "f1897f91-1a68-4ab3-aef4-0564e30937f6": {
+    "fileId": "f1897f91-1a68-4ab3-aef4-0564e30937f6",
+    "originalName": "image.png",
+    "fileName": "f1897f91-1a68-4ab3-aef4-0564e30937f6.png",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\f1897f91-1a68-4ab3-aef4-0564e30937f6.png",
+    "size": 16,
+    "hash": "02a3e298f1533f62558c58e4c70edcab9af5a50d62d925fd5390942020fb0fb8",
+    "mimeType": "image/png",
+    "owner": "user_normal",
+    "createdAt": 1780976172437,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "79a5cbec-3b2d-4171-aaf4-1cae99603192": {
+    "fileId": "79a5cbec-3b2d-4171-aaf4-1cae99603192",
+    "originalName": "data.json",
+    "fileName": "79a5cbec-3b2d-4171-aaf4-1cae99603192.json",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\79a5cbec-3b2d-4171-aaf4-1cae99603192.json",
+    "size": 30,
+    "hash": "d8c04bddc717c157fb37ea4db608dd094546ac89461ce1dabbe6a2d899e20e1b",
+    "mimeType": "text/plain",
+    "owner": "user_normal",
+    "createdAt": 1780976172474,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "92dcc81c-f866-4fa5-8fec-01be495732d7": {
+    "fileId": "92dcc81c-f866-4fa5-8fec-01be495732d7",
+    "originalName": "unknown.xyz",
+    "fileName": "92dcc81c-f866-4fa5-8fec-01be495732d7.xyz",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\92dcc81c-f866-4fa5-8fec-01be495732d7.xyz",
+    "size": 11,
+    "hash": "64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c",
+    "mimeType": null,
+    "owner": "user_vip",
+    "createdAt": 1780976254553,
+    "owners": [
+      "user_vip"
+    ]
+  },
+  "e82d5891-d236-4f73-8baf-98dc34aa93a1": {
+    "fileId": "e82d5891-d236-4f73-8baf-98dc34aa93a1",
+    "originalName": "test_safe.txt",
+    "fileName": "e82d5891-d236-4f73-8baf-98dc34aa93a1.txt",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\e82d5891-d236-4f73-8baf-98dc34aa93a1.txt",
+    "size": 13,
+    "hash": "d5ef9984be135ec74cbc5dee24825199ca433e1ffd7a2fb22db12a3c5324ea1d",
+    "mimeType": "text/plain",
+    "owner": "user_normal",
+    "createdAt": 1780982459689,
+    "owners": [
+      "user_normal"
+    ]
   }
 }

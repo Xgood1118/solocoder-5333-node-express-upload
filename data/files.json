@@ -1,0 +1,132 @@
+{
+  "83f0596a-fa27-4b62-abe2-a97c4bb9c6e0": {
+    "fileId": "83f0596a-fa27-4b62-abe2-a97c4bb9c6e0",
+    "originalName": "renamed-file.txt",
+    "fileName": "83f0596a-fa27-4b62-abe2-a97c4bb9c6e0.txt",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\83f0596a-fa27-4b62-abe2-a97c4bb9c6e0.txt",
+    "size": 46,
+    "hash": "5b8e998320353034a50b6ab73aed2d41f7d60464eb3e8f461982c16982320a5f",
+    "mimeType": null,
+    "owner": "user_normal",
+    "createdAt": 1780939538883,
+    "owners": [
+      "user_normal"
+    ],
+    "updatedAt": 1780939664293
+  },
+  "14a79de4-a74f-4926-842d-129566bfba03": {
+    "fileId": "14a79de4-a74f-4926-842d-129566bfba03",
+    "originalName": "5333-test1.txt",
+    "fileName": "14a79de4-a74f-4926-842d-129566bfba03.txt",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\14a79de4-a74f-4926-842d-129566bfba03.txt",
+    "size": 46,
+    "hash": "ca76ddda26adbfb82e74db114918d12b54ccd4a59b14c529879f713b8c16e655",
+    "mimeType": null,
+    "owner": "user_normal",
+    "createdAt": 1780967659963,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "40041c50-452b-46e9-9416-ddd9c020a066": {
+    "fileId": "40041c50-452b-46e9-9416-ddd9c020a066",
+    "originalName": "5333-test2.txt",
+    "fileName": "40041c50-452b-46e9-9416-ddd9c020a066.txt",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\40041c50-452b-46e9-9416-ddd9c020a066.txt",
+    "size": 15,
+    "hash": "52f41eed67f78aae8c544da6bc1ed960d066e791f38b77f7e76dbc8b77b0c986",
+    "mimeType": null,
+    "owner": "user_normal",
+    "createdAt": 1780967660103,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "e65c7b65-a3d6-4c4e-ae38-f86d61aad9ba": {
+    "fileId": "e65c7b65-a3d6-4c4e-ae38-f86d61aad9ba",
+    "originalName": "5333-test3.txt",
+    "fileName": "e65c7b65-a3d6-4c4e-ae38-f86d61aad9ba.txt",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\e65c7b65-a3d6-4c4e-ae38-f86d61aad9ba.txt",
+    "size": 15,
+    "hash": "0616de5ba75ea3ef33617100913c1993b623b3bdd36fbd239741a90f06a4c0cd",
+    "mimeType": null,
+    "owner": "user_normal",
+    "createdAt": 1780967660103,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "a655dba3-f7d0-46a1-a783-9f40c1deebef": {
+    "fileId": "a655dba3-f7d0-46a1-a783-9f40c1deebef",
+    "originalName": "5333-virus.exe",
+    "fileName": "a655dba3-f7d0-46a1-a783-9f40c1deebef.exe",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\a655dba3-f7d0-46a1-a783-9f40c1deebef.exe",
+    "size": 3,
+    "hash": "208f777c20b4bc54d985c1da5135fb1b2e6212ba969980d78bffd6b18a5e984f",
+    "mimeType": null,
+    "owner": "user_normal",
+    "createdAt": 1780967934663,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "4c5022e9-f676-4654-b150-8979d8798ba6": {
+    "fileId": "4c5022e9-f676-4654-b150-8979d8798ba6",
+    "originalName": "chunked.bin",
+    "fileName": "4c5022e9-f676-4654-b150-8979d8798ba6.bin",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\4c5022e9-f676-4654-b150-8979d8798ba6.bin",
+    "size": 12582912,
+    "hash": "cfadd44a103cbd6d5726fa07b27d7aad2f67ed3930ff96901c486a5beaf7e723",
+    "mimeType": null,
+    "owner": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "createdAt": 1780968020769,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "165f64e9-60a3-4622-a0b8-e015d2c3b427": {
+    "fileId": "165f64e9-60a3-4622-a0b8-e015d2c3b427",
+    "originalName": "instant1.bin",
+    "fileName": "165f64e9-60a3-4622-a0b8-e015d2c3b427.bin",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\165f64e9-60a3-4622-a0b8-e015d2c3b427.bin",
+    "size": 2097152,
+    "hash": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "mimeType": null,
+    "owner": "user_normal",
+    "uploadId": "e3a7ca7a-d36e-4bd4-8264-f716d6f656e4",
+    "createdAt": 1780968237476,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "7afef8c5-d32f-4b68-96c2-8fc30736d41a": {
+    "fileId": "7afef8c5-d32f-4b68-96c2-8fc30736d41a",
+    "originalName": "resume.bin",
+    "fileName": "7afef8c5-d32f-4b68-96c2-8fc30736d41a.bin",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\7afef8c5-d32f-4b68-96c2-8fc30736d41a.bin",
+    "size": 8388608,
+    "hash": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74",
+    "mimeType": null,
+    "owner": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "createdAt": 1780968391389,
+    "owners": [
+      "user_normal"
+    ]
+  },
+  "99109170-2601-4cc1-9ada-535ec74dff66": {
+    "fileId": "99109170-2601-4cc1-9ada-535ec74dff66",
+    "originalName": "5333-real.exe",
+    "fileName": "99109170-2601-4cc1-9ada-535ec74dff66.exe",
+    "filePath": "D:\\work01\\SoloCoder\\5333-node-express-upload\\uploads\\99109170-2601-4cc1-9ada-535ec74dff66.exe",
+    "size": 20,
+    "hash": "5236c835453b8304dd676fa3395df80077bf713561e35b1ba5d31bf806c8a545",
+    "mimeType": null,
+    "owner": "user_normal",
+    "createdAt": 1780969072540,
+    "owners": [
+      "user_normal"
+    ]
+  }
+}

@@ -1,0 +1,1188 @@
+[
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "371f95a5-a7b0-4605-92fb-060bfacc7146",
+    "fileName": "test.txt",
+    "fileSize": 1024000,
+    "ip": "::1",
+    "timestamp": 1780939466301
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 0,
+    "ip": "::1",
+    "timestamp": 1780939538855
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::1",
+    "timestamp": 1780939628559
+  },
+  {
+    "type": "file_rename",
+    "userId": "user_normal",
+    "fileId": "83f0596a-fa27-4b62-abe2-a97c4bb9c6e0",
+    "oldName": "renamed-file.txt",
+    "newName": "renamed-file.txt",
+    "ip": "::1",
+    "timestamp": 1780939664293
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "fe4beac7-346b-4e0f-86b9-36eb3ab811a0",
+    "fileName": "chunked-test.txt",
+    "fileSize": 1024000,
+    "ip": "::1",
+    "timestamp": 1780939685761
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ee928797-9fea-4d92-a1ef-93a2945f54e8",
+    "fileName": "chunked-test.txt",
+    "fileSize": 1024000,
+    "ip": "::1",
+    "timestamp": 1780939786971
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "ee928797-9fea-4d92-a1ef-93a2945f54e8",
+    "chunkIndex": 0,
+    "chunkSize": 1024000,
+    "ip": "::1",
+    "timestamp": 1780939787038
+  },
+  {
+    "type": "upload_complete",
+    "userId": "user_normal",
+    "uploadId": "ee928797-9fea-4d92-a1ef-93a2945f54e8",
+    "fileId": "78911fc1-4483-4071-a0ad-c4f02b4019a3",
+    "fileName": "chunked-test.txt",
+    "fileSize": 1024000,
+    "fileHash": "062af9ccd890ba3d067ca7150278bcc420069bd82f6e41161029303dfd6d661e",
+    "ip": "::1",
+    "timestamp": 1780939806281
+  },
+  {
+    "type": "hash_check_hit",
+    "userId": "user_normal",
+    "fileHash": "062af9ccd890ba3d067ca7150278bcc420069bd82f6e41161029303dfd6d661e",
+    "fileId": "78911fc1-4483-4071-a0ad-c4f02b4019a3",
+    "ip": "::1",
+    "timestamp": 1780939819969
+  },
+  {
+    "type": "file_delete",
+    "userId": "user_normal",
+    "fileId": "78911fc1-4483-4071-a0ad-c4f02b4019a3",
+    "fileName": "chunked-test.txt",
+    "fileSize": 1024000,
+    "hardDelete": true,
+    "ip": "::1",
+    "timestamp": 1780939837984
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967659964
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 2,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967660103
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967934663
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "fileName": "chunked.bin",
+    "fileSize": 12582912,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967957900
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "chunkIndex": 0,
+    "chunkSize": 4194304,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967959138
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "chunkIndex": 1,
+    "chunkSize": 4194304,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967959472
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "chunkIndex": 2,
+    "chunkSize": 4194304,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780967960778
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "chunkIndex": 1,
+    "chunkSize": 4194304,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968009033
+  },
+  {
+    "type": "upload_complete",
+    "userId": "user_normal",
+    "uploadId": "24acbe8f-85c6-432b-b0a5-c84d69bf46de",
+    "fileId": "4c5022e9-f676-4654-b150-8979d8798ba6",
+    "fileName": "chunked.bin",
+    "fileSize": 12582912,
+    "fileHash": "cfadd44a103cbd6d5726fa07b27d7aad2f67ed3930ff96901c486a5beaf7e723",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968020769
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "e3a7ca7a-d36e-4bd4-8264-f716d6f656e4",
+    "fileName": "instant1.bin",
+    "fileSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968235558
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "e3a7ca7a-d36e-4bd4-8264-f716d6f656e4",
+    "chunkIndex": 0,
+    "chunkSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968236087
+  },
+  {
+    "type": "upload_complete",
+    "userId": "user_normal",
+    "uploadId": "e3a7ca7a-d36e-4bd4-8264-f716d6f656e4",
+    "fileId": "165f64e9-60a3-4622-a0b8-e015d2c3b427",
+    "fileName": "instant1.bin",
+    "fileSize": 2097152,
+    "fileHash": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968237476
+  },
+  {
+    "type": "instant_upload",
+    "userId": "user_normal",
+    "fileName": "instant2.bin",
+    "fileHash": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "fileId": "165f64e9-60a3-4622-a0b8-e015d2c3b427",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968237981
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "fileName": "resume.bin",
+    "fileSize": 8388608,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968345445
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "chunkIndex": 0,
+    "chunkSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968346397
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "chunkIndex": 2,
+    "chunkSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968346690
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "chunkIndex": 1,
+    "chunkSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968359826
+  },
+  {
+    "type": "chunk_upload",
+    "userId": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "chunkIndex": 3,
+    "chunkSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968389639
+  },
+  {
+    "type": "upload_complete",
+    "userId": "user_normal",
+    "uploadId": "b2769794-48e2-4093-a333-ee12809a6a06",
+    "fileId": "7afef8c5-d32f-4b68-96c2-8fc30736d41a",
+    "fileName": "resume.bin",
+    "fileSize": 8388608,
+    "fileHash": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968391389
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "266b9fe4-2211-415e-9f75-3fc16b57e193",
+    "fileName": "spam1.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968391743
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "9f2602b6-80f4-4b46-beb0-74e31b946d77",
+    "fileName": "spam2.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968392201
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "53b33bed-2120-455f-a806-6edb5590f3fc",
+    "fileName": "spam3.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968392625
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "a4390f76-efe5-45f1-bf20-091f5c2924b0",
+    "fileName": "spam4.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968393112
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ad2bab12-d907-4fcc-b530-88e3e76be605",
+    "fileName": "spam5.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968393470
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "cef6f421-226e-47b8-8768-332d353a7fb0",
+    "fileName": "spam6.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968393813
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "e4fe5f62-30cd-4004-95ff-e2ddb659435c",
+    "fileName": "spam7.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968394306
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "8c1733a1-0ca0-44b1-85e6-de20b7a56f2d",
+    "fileName": "spam8.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968394980
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "7d073df6-f0ca-44f4-b4ab-052f10be84e8",
+    "fileName": "spam9.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968395657
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "b8612217-af24-4f2d-8dd7-8f1c43cf4737",
+    "fileName": "spam10.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968405786
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "fd209429-4743-4365-b5ae-8aa786a16b0a",
+    "fileName": "spam11.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968406444
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "9be012f3-eaf1-4c14-8990-f70518eef269",
+    "fileName": "spam12.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968406898
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "c90501de-c614-4f58-b20b-98b17cba098c",
+    "fileName": "spam13.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968407239
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ce41605e-bd46-47bf-9cd0-ce791f79a414",
+    "fileName": "spam14.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968407823
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "39db48d3-785b-4bb0-b7e3-f2565b7bf492",
+    "fileName": "spam15.bin",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968408296
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968522823
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968523286
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968523827
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968524187
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968524617
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968524944
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968525217
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968525508
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968525798
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968526293
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968583652
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968583868
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968584067
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968584306
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968584592
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "bffc7eee-f420-4342-9439-1a734d54d512",
+    "fileName": "big.bin",
+    "fileSize": 12582912,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968584990
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "bcd5fd34-c019-4616-b952-40308a5e387f",
+    "fileName": "sse.bin",
+    "fileSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968631492
+  },
+  {
+    "type": "file_rename",
+    "userId": "user_normal",
+    "fileId": "95bd80fd-4f65-433f-b75f-fd726fcc8e33",
+    "oldName": "renamed-test.txt",
+    "newName": "renamed-test.txt",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968697603
+  },
+  {
+    "type": "file_delete",
+    "userId": "user_normal",
+    "fileId": "95bd80fd-4f65-433f-b75f-fd726fcc8e33",
+    "fileName": "renamed-test.txt",
+    "fileSize": 13,
+    "hardDelete": true,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968697707
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_vip",
+    "uploadId": "ba8e212e-6ab4-4223-ade6-34ec33789b14",
+    "fileName": "vip-big.bin",
+    "fileSize": 314572800,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780968989852
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ada3b3c8-cde8-4bda-a24a-401a3fedb083",
+    "fileName": "abort.bin",
+    "fileSize": 2097152,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969006011
+  },
+  {
+    "type": "upload_abort",
+    "userId": "user_normal",
+    "uploadId": "ada3b3c8-cde8-4bda-a24a-401a3fedb083",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969006526
+  },
+  {
+    "type": "hash_check_hit",
+    "userId": "user_normal",
+    "fileHash": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "fileId": "165f64e9-60a3-4622-a0b8-e015d2c3b427",
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969007277
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969043951
+  },
+  {
+    "type": "simple_upload",
+    "userId": "user_normal",
+    "fileCount": 1,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969072540
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "8b017527-5b51-4e58-8cf5-251b250ed732",
+    "fileName": "rate1.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969146965
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "3785555d-93bc-436f-a995-7697c6a23c43",
+    "fileName": "rate2.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147134
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ac1b702d-4ee8-44dd-aa92-85e93aff648f",
+    "fileName": "rate3.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147251
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "8ab13d1a-b63f-44c5-8a7a-9c374a54bb12",
+    "fileName": "rate4.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147377
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "2f83a077-8fa2-4367-909e-95223d82e915",
+    "fileName": "rate5.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147483
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "99bce628-956d-487e-8618-576c24b10458",
+    "fileName": "rate6.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147606
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "086b7246-2191-410b-8185-d36e56a6b6ba",
+    "fileName": "rate7.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147744
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "acf94bd9-ed85-4003-84d1-a69d8c19bf1a",
+    "fileName": "rate8.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147871
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "74b9f590-f489-40a8-bac3-fe18e6db8bb3",
+    "fileName": "rate9.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969147993
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "f2d5bc9f-ab9b-4124-a9d4-70feac452e95",
+    "fileName": "rate10.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969148102
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ad031c70-5f6d-4eef-b9cc-8db6a4a5a6d6",
+    "fileName": "rate11.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969207231
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "b8272f81-1560-4422-ac57-29b0d61bbc89",
+    "fileName": "rate12.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969207717
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "6fd2502a-eb22-4d12-9af9-81ad5eb7c4db",
+    "fileName": "rate13.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969208601
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "1b155194-2aa4-4235-adf2-c7463aa66ca2",
+    "fileName": "rate14.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969209049
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "b83b97c5-3c31-47ae-af23-363678098966",
+    "fileName": "rate15.txt",
+    "fileSize": 1024,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969209531
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "fabc9641-ea9a-49cb-bca9-ccd6eb431bae",
+    "fileName": "r1.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969393628
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "278371e5-1ebb-4ed7-bca1-6a238d2e4315",
+    "fileName": "r2.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969393727
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "004153cc-fe57-42e1-a891-0add1a92cfec",
+    "fileName": "r3.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969393844
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "28a24303-d63c-4f7d-b545-c867019c4ad2",
+    "fileName": "r4.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969393939
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "7618aa8c-68a0-4246-82a9-0cf46dc2d180",
+    "fileName": "r5.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969394051
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "fae72380-4f12-4946-8a3d-df30c40c9d23",
+    "fileName": "r6.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969394165
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "2407aff2-deb3-4c76-8ade-b5b7f22b1dec",
+    "fileName": "r7.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969394278
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "5c3f87ac-8144-41d0-b978-5c7bd471ce7d",
+    "fileName": "r8.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969394387
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "058ef48b-a2c0-4aef-aea3-5157474821ee",
+    "fileName": "r9.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969394487
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "02b99bfd-6c76-4781-8ea4-a70a78f25d8e",
+    "fileName": "r10.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969394588
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "1f63174c-a68c-42ce-a9d3-fe5d59ad2c0a",
+    "fileName": "r11.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969453703
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "6595aecb-da78-453c-b61b-6b3fa8926169",
+    "fileName": "r12.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969453792
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "7fac7991-115c-4e89-add0-ec1fb4a58be0",
+    "fileName": "burst1.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969472922
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "e545d075-c17e-4baf-b3af-b0eb57f89cc0",
+    "fileName": "burst2.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969473205
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "326acae7-ea36-43cc-9420-0cbdd69ccdf3",
+    "fileName": "burst3.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969473476
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "a3a44f4e-9b2f-4204-9261-c68211ab4b3d",
+    "fileName": "burst4.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969473682
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "bf65a6ee-0220-4cd8-ad93-5f5e0daf5b99",
+    "fileName": "burst5.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969473929
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "eca95318-942a-4a0e-82e8-f982214342e3",
+    "fileName": "burst6.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969474131
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "c76d6be6-08dc-4813-b5d5-5613630073ba",
+    "fileName": "burst7.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969474334
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "b1aa9c18-76b2-4513-b7ee-0e2dec1d7cca",
+    "fileName": "burst8.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969474465
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "4c0cc421-8112-414d-ba20-c63155017ae3",
+    "fileName": "burst9.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969514660
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "22d0b5a1-afd8-4c04-b220-3cb94d7783a9",
+    "fileName": "burst10.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969519495
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "c61479dc-6e68-49a0-b99e-752addbf0a9b",
+    "fileName": "burst11.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969520467
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "6954875d-2f96-4f01-93d6-64bf9fc7df08",
+    "fileName": "burst12.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969520792
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "d72e7504-9ed9-4271-8f4c-e26d9454f253",
+    "fileName": "burst13.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969521249
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "7d59a41e-b087-4336-a666-89261fa107a9",
+    "fileName": "burst14.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969521565
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "0cd6f06d-c977-4b6f-b238-f581d0d3c553",
+    "fileName": "burst15.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969521826
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "29c42ab6-8766-4832-8f32-c2a46295b2d7",
+    "fileName": "burst16.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969521976
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "6f1149dd-4d55-46ad-9809-150b109a5baa",
+    "fileName": "burst17.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969522109
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "a6554785-5f5d-4673-82d9-d7846b24fb2f",
+    "fileName": "burst18.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969522300
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "0a302de5-c0c2-4a4c-ab01-ef4256186f68",
+    "fileName": "burst19.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969575487
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "3aa4998a-48a3-4c66-bab3-dd806cf3aa34",
+    "fileName": "burst20.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969575594
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "51cb165d-07fc-4739-b41d-128662cf4014",
+    "fileName": "fc1.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969768972
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "513ace3e-c752-4be7-8c14-0abcf76e6918",
+    "fileName": "fc2.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769075
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ef5ba754-c2a0-4829-8845-ffab4734b7c9",
+    "fileName": "fc3.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769190
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "30c3d077-4f76-4353-ace3-62a15c738ab7",
+    "fileName": "fc4.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769320
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "e6d9f4cf-e334-47bf-a19a-8af22f0c1ae4",
+    "fileName": "fc5.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769435
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "d1066d50-4d69-4164-8658-31ceb4d5e58a",
+    "fileName": "fc6.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769543
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "60179b81-98d1-47c3-bdbd-f18ece974212",
+    "fileName": "fc7.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769659
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "13b84750-a1fd-441e-8d62-695dbf78b086",
+    "fileName": "fc8.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769807
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "61f46d4a-1bee-476d-8489-56c93df6b87a",
+    "fileName": "fc9.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969769940
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "446c39cb-f83d-4ed8-be7a-0ec68cf23ddf",
+    "fileName": "fc10.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969770042
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "1c813898-1b86-4979-a2ee-0d019fcbbdbc",
+    "fileName": "fc11.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829157
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "41238b39-18f9-41d3-b573-da006ffc121b",
+    "fileName": "fc12.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829262
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "a6365402-ebe4-4b63-bc6d-a13ec1661845",
+    "fileName": "fc13.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829363
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "a475bdcb-d7ee-4a8e-b6be-0c82baecdd6d",
+    "fileName": "fc14.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829470
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "06c4c355-584a-43a4-8603-fc813b954165",
+    "fileName": "fc15.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829598
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "f1acc6e3-70bc-4167-a1b6-ae09bff12e63",
+    "fileName": "fc16.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829700
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "dd177b0f-441f-4abf-b914-d770f58489b8",
+    "fileName": "fc17.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829796
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "b7db5941-40f2-4beb-bc23-3ceb83648864",
+    "fileName": "fc18.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969829912
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "d3072a19-5196-420a-9499-7c58baa831fb",
+    "fileName": "fc19.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969830042
+  },
+  {
+    "type": "upload_init",
+    "userId": "user_normal",
+    "uploadId": "ed8f4187-3ec9-40aa-b75e-fe93956623a9",
+    "fileName": "fc20.txt",
+    "fileSize": 100,
+    "ip": "::ffff:127.0.0.1",
+    "timestamp": 1780969830276
+  }
+]

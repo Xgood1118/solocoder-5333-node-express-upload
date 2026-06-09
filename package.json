@@ -1,0 +1,19 @@
+{
+  "name": "node-express-upload",
+  "version": "1.0.0",
+  "description": "File upload service with chunked upload, instant upload, resume upload, and more",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "busboy": "^1.6.0",
+    "uuid": "^9.0.0",
+    "file-type": "^18.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
